@@ -1,0 +1,54 @@
+
+pack2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+test02 (non POT)
+  rotate: false
+  xy: 1, 517
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+badlogic
+  rotate: false
+  xy: 1, 259
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+test01
+  rotate: false
+  xy: 303, 561
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+test03 (multi shapes)
+  rotate: false
+  xy: 1, 1
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+paddled
+  rotate: false
+  xy: 303, 549
+  size: 80, 10
+  orig: 80, 10
+  offset: 0, 0
+  index: -1
+paddled2
+  rotate: false
+  xy: 259, 435
+  size: 10, 80
+  orig: 10, 80
+  offset: 0, 0
+  index: -1
+paddleball
+  rotate: false
+  xy: 561, 810
+  size: 7, 7
+  orig: 7, 7
+  offset: 0, 0
+  index: -1

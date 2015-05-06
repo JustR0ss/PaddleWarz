@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:background="#000000">
+
+	<TabWidget
+	    android:id="@android:id/tabs"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical|center_horizontal" />
+
+	<FrameLayout
+             android:id="@android:id/tabcontent"
+             android:layout_width="match_parent"
+	    	android:layout_height="match_parent">
+		<LinearLayout
+		    android:id="@+id/tab0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="7dp"
+        android:background="#000000"
+        android:orientation="vertical" >
+
+    	<TextView
+	    android:id="@+id/textView1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="\nYou have two lives. 
+	    \nYou must get the ball past the opponent's paddle. 
+	    \nThe ball will break the top and bottom wall when it reaches certain speed,
+	    \nthis can used to get past the opponent. 
+	    \nAlso be hitting the ball with the edge of the padde you can increase ball speed to point the opposition can't match its speed.
+	    \n\n Local score is stored on phone, global is stored on server to keep track of all scores." />
+    	
+    	
+    </LinearLayout>
+	<LinearLayout
+	    android:id="@+id/tab1"
+	     android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="7dp"
+        android:background="#000000"
+        android:orientation="vertical"
+	    >
+	    <TextView
+	    android:id="@+id/textView2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="\nTo begin multiplayer, one person creates game and other person enter the ip address and port and connects. 
+	    \nYou can play this locally by both players connecting to same router via wi-fi, 
+	    \nand player hosting gives his site local ip address to other person. 
+	    \nThe first person to 10 wins." />
+	</LinearLayout>
+
+	
+	
+	</FrameLayout>
+</LinearLayout>
+    
+
+</TabHost>

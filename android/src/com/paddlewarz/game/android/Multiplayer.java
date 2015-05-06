@@ -67,6 +67,26 @@ public class Multiplayer extends Activity{
 			}
 
 		});
+		findViewById(R.id.create2).setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View view) {
+
+				Intent i = new Intent(Multiplayer.this, ComingSoon.class);
+				
+				startActivity(i);
+			}
+
+		});
+		findViewById(R.id.join2).setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View view) {
+
+				Intent i = new Intent(Multiplayer.this, ComingSoon.class);
+				
+				startActivity(i);
+			}
+
+		});
 
 	}
 

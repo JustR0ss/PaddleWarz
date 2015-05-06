@@ -130,7 +130,8 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View view) {
 
-				Toast.makeText(getApplicationContext(), "options", Toast.LENGTH_SHORT).show();
+				
+				//Toast.makeText(getApplicationContext(), "options", Toast.LENGTH_SHORT).show();
 			}
 
 		});
